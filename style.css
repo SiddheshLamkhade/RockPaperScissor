@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+body{
+    background-image: url(https://t3.ftcdn.net/jpg/00/88/98/18/360_F_88981880_YjJManMJ6hJmKr5CZteFJAkEzXIh8mxW.jpg);
+    background-size: cover;
+    
+h1{
+    background-color: #fc466b;
+    color: white;
+    height: 5rem;
+    line-height: 5rem; /*as height of h1 is 5rem so due to this property it will be set vertically in center*/
+}
+.choices
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    margin-top: 3rem;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius:50%;
+    /*to bring image in the center , do as follow*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.choice:hover
+{
+    /*opacity:0.5; opacity becomes half when imges get hovered*/
+    cursor: pointer;/*cursor becomes hand*/
+    background-color: rgb(39, 37, 36);
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius:50%; /*it will covert img into circle format*/
+}
+
+.scoreboard
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap:5rem;
+    font-weight: bolder;
+
+}
+
+#computerscore,#userscore
+{
+    font-size: 4rem;
+}
+
+.msgcontainer
+{
+    margin-top: 7rem;
+}
+#msg
+{
+    background-color: rgb(21, 22, 22);
+    color: white;
+    font-size: 2rem;
+    border-radius: 3px;
+    display: inline;
+    padding: 10px 55px;
+}
