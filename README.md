@@ -27,20 +27,6 @@ Rock Paper Scissors is a classic hand game played between two participants. This
 
 ---
 
-## 📦 How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/rock-paper-scissors.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd rock-paper-scissors
-   ```
-3. Open the `index.html` file in your browser.
-4. Enjoy the game by selecting Rock, Paper, or Scissors!
-
----
 
 ## 🎮 How to Play
 
@@ -56,8 +42,6 @@ Rock Paper Scissors is a classic hand game played between two participants. This
 
 
 
-- **Email**: your-email@example.com
-- **GitHub**: [your-username](https://github.com/your-username)
 
 Enjoy playing the Rock Paper Scissors Game! 🎉
 
